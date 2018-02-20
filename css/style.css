@@ -1,3 +1,45 @@
+body {
+  padding-top: 90px;
+  color: black;
+}
+header {
+  width: 100%;
+  padding: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  overflow: hidden;
+  max-height: 100px;
+}
+#title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  float: left;
+}
+#times {
+  font-weight: lighter;
+  font-size: small;
+  display: inline-block;
+  margin-left: 20px;
+}
+#menu {
+  text-transform: uppercase;
+  position: absolute;
+  right: 80px;
+  top: 27px;
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  cursor: pointer;
+}
+nav {
+  display: none;
+}
 .banner {
   width: 100%;
 }
