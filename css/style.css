@@ -12,30 +12,40 @@ header {
   top: 0;
   overflow: hidden;
   max-height: 100px;
+  transition-duration: 0.25s;
+}
+.sticky {
+  box-shadow: 10px 0px 5px grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition-duration: 0.5s;
 }
 #title {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
-  float: left;
+  display: inline-block;
+  font-family: Lato;
 }
 #times {
   font-weight: lighter;
   font-size: small;
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 #menu {
   text-transform: uppercase;
   position: absolute;
   right: 80px;
-  top: 27px;
   text-decoration: none;
   font-weight: 400;
   color: black;
   font-size: 20px;
   background-color: white;
   cursor: pointer;
+}
+.inner {
+  width: 100%;
 }
 nav {
   display: none;

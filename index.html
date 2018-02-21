@@ -5,26 +5,33 @@
 <head>
   <link rel="shortcut icon" href="images/calvarychapel.ico" />
   <title>Calvary Chapel Marysville</title>
+
+  <!-- Stylesheets, they give the website a style instead of just displaying the content -->
+   <link href="https://fonts.googleapis.com/css?family=Lato|Mukta+Malar|Open+Sans|PT+Sans|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  <meta name="viewport" content="700px">
   <link rel="stylesheet" href="font-awesome/css/fontawesome-all.css" />
   <link rel="stylesheet" href="css/style.css" />
+
+  <meta name="viewport" content="700px" /><!-- For Mobile devices -->
+  <meta charset="UTF-8" /><!-- Tells browser what kind of text we are using -->
 </head>
 <body>
   <!-- The header contants all the information that is on the top of every page -->
   <header>
-    <span id="title">CALVARY MARYSVILLE</span>
-    <span id="times">Sundays @10am and Wednesdays @7pm</span>
-    <!-- This is the menu for accesing different pages -->
-    <a id="menu"><i class="fas fa-bars"></i> Menu</a>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="http://calvarychapelassociation.com/out.html">About</a>
-      <a href="connect.html">Connect</a>
-      <a href="media.html">Media</a>
-      <a href="https://calvarymarysville.churchcenter.com/giving">Give</a>
-      <a href="contact.html">Contact Us</a>
-    </nav>
+    <div class="inner">
+      <span id="title">CALVARY MARYSVILLE</span>
+      <span id="times">Sundays @10am and Wednesdays @7pm</span>
+      <!-- This is the menu for accesing different pages -->
+      <a id="menu"><i class="fas fa-bars"></i> Menu</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="http://calvarychapelassociation.com/out.html">About</a>
+        <a href="connect.html">Connect</a>
+        <a href="media.html">Media</a>
+        <a href="https://calvarymarysville.churchcenter.com/giving">Give</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
   </header>
   <!-- The first image on the page -->
   <img class="banner" src="images/banner1.jpg" />
@@ -67,5 +74,9 @@
       </div>
     </div>
   </section>
+
+  <!-- Some scripts for animations and dropdown menus -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
