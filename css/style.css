@@ -1,12 +1,13 @@
 body {
   padding-top: 90px;
   color: black;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 header {
   width: 100%;
   padding: 30px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 130px;
+  padding-right: 130px;
   position: fixed;
   background-color: white;
   top: 0;
@@ -26,6 +27,7 @@ header {
   font-size: 20px;
   display: inline-block;
   font-family: Lato;
+  color: #383a3d;
 }
 #times {
   font-weight: lighter;
@@ -36,7 +38,7 @@ header {
 #menu {
   text-transform: uppercase;
   position: absolute;
-  right: 80px;
+  right: 130px;
   text-decoration: none;
   font-weight: 400;
   color: black;
