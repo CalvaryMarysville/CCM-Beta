@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,700);
+@import url(slide.css);
 body {
   padding-top: 90px;
   color: black;
@@ -6,8 +8,8 @@ body {
 header {
   width: 100%;
   padding: 30px;
-  padding-left: 130px;
-  padding-right: 130px;
+  padding-left: 125px;
+  padding-right: 125px;
   position: fixed;
   background-color: white;
   top: 0;
@@ -46,11 +48,38 @@ header {
   background-color: white;
   cursor: pointer;
 }
+.menuOpen {
+  font-weight: 100;
+}
 .inner {
   width: 100%;
 }
 nav {
   display: none;
+  position: fixed;
+  top: 90px;
+  right: 120px;
+  width: 40%;
+  background-color: white;
+  text-transform: uppercase;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  font-family: Lato;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition-duration: 0.25s;
+}
+nav a {
+  display: block;
+  padding: 15px 20px 15px 20px;
+  font-family: sans-serif;
+  border-top: 1px solid #e5e5e5;
+  color: #10cc00;
+  font-family: Raleway;
+}
+.navScroll {
+  top: 70px;
+  transition-duration: 0.5s;
 }
 .banner {
   width: 100%;
@@ -63,3 +92,16 @@ a {
   color: green;
 }
 a:hover{text-decoration: underline; color: black;}
+
+section {
+  padding: 50px 10% 50px 10%;
+}
+/* Main content */
+#carousel {
+  width: 60%;
+}
+.box {
+  float: left;
+  width: 30%;
+  margin-right: 30px;
+}
